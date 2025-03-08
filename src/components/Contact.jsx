@@ -23,7 +23,7 @@ function Contact() {
 
     return (
         <div id="contact" ref={ sectionRef } className="w-full flex flex-col md:flex-row justify-center items-center gap-20 py-16 md:py-40 px-8">
-            <img src="src/assets/img/test.png" alt="" className="hidden xl:flex" />
+            <img src="/assets/img/test.png" alt="" className="hidden xl:flex" />
             <div className="w-full md:w-auto flex flex-col justify-center">
                 <h1 className="text-sm md:text-xl font-semibold md:mb-2">Contact Me</h1>
                 <h1 className="text-blue font-extrabold text-xl md:text-5xl mb-2">GET IN TOUCH WITH ME</h1>

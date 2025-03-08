@@ -43,12 +43,12 @@ function AboutMe() {
                         <a href="https://www.github.com/darrelbumika/" target="." className="flex items-center gap-4 bg-black rounded-2xl py-4 px-8 md:px-12 text-xl font-semibold text-white hover:bg-black/90 ease-in-out transition-all">
                             <h1 className="hidden md:flex text-base lg:text-xl">Darrel at GitHub</h1>
                             <h1 className="md:hidden text-base lg:text-xl">Darrel</h1>
-                            <img src="src/assets/img/github.png" alt="github" className="w-8 h-8"/>
+                            <img src="/assets/img/github.png" alt="github" className="w-8 h-8"/>
                         </a>
                         <a href="https://www.linkedin.com/in/ashilpadarrel/" target="." className="flex items-center gap-4 bg-black rounded-2xl py-4 px-8 md:px-12 text-xl font-semibold text-white hover:bg-black/90 ease-in-out transition-all">
                             <h1 className="hidden md:flex text-base lg:text-xl">Darrel at LinkedIn</h1>
                             <h1 className="md:hidden text-base lg:text-xl">Darrel</h1>
-                            <img src="src/assets/img/linkedin.png" alt="github" className="w-8 h-8"/>
+                            <img src="/assets/img/linkedin.png" alt="github" className="w-8 h-8"/>
                         </a>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ function AboutMe() {
                             <div className="flex items-center gap-4 bg-black rounded-2xl py-4 px-8 md:px-12 text-xl font-semibold text-white hover:bg-black/90 ease-in-out transition-all">
                                 <h1 className="hidden xl:flex text-base lg:text-xl">Darrel at Letterboxd</h1>
                                 <h1 className="xl:hidden text-base lg:text-xl">Darrel</h1>
-                                <img src="src/assets/img/letterboxd.png" alt="github" className="w-8 h-8"/>
+                                <img src="/assets/img/letterboxd.png" alt="github" className="w-8 h-8"/>
                             </div>
                         </a>
                     </div>
@@ -84,7 +84,7 @@ function AboutMe() {
                             <div className="flex items-center gap-4 bg-black rounded-2xl py-4 px-8 sm:px-12 text-xl font-semibold text-white hover:bg-black/90 ease-in-out transition-all">
                                 <h1 className="hidden xl:flex text-base lg:text-xl">Eunoia at Fiverr</h1>
                                 <h1 className="xl:hidden text-base lg:text-xl">Eunoia</h1>
-                                <img src="src/assets/img/fiverr.png" alt="github" className="w-8 h-8"/>
+                                <img src="/assets/img/fiverr.png" alt="github" className="w-8 h-8"/>
                             </div>
                         </a>
                     </div>
@@ -96,7 +96,7 @@ function AboutMe() {
                             {skills.map((skill, index) => (
                                 <div key={index} className="flex bg-gray rounded-lg items-center overflow-hidden hover:scale-105 ease-in-out transition-all">
                                     <div className="hidden md:flex bg-black p-2">
-                                        <img src={ "src/assets/icon/" + skill + ".png" } alt={ skill } className="w-10 h-10" />
+                                        <img src={ "/assets/icon/" + skill + ".png" } alt={ skill } className="w-10 h-10" />
                                     </div>
                                     <div className="flex-1 juscify-center items-center mx-4 my-2 md:mx-6">
                                         <h1 className="flex justify-center text-sm md:text-base font-semibold">{ skill }</h1>
@@ -107,7 +107,7 @@ function AboutMe() {
                         <div className="w-full xl:w-auto grid md:grid-cols-2 2xl:grid-cols-center-3 gap-2 sm:gap-4 mt-8 ">
                             {certifications.map((certification, index) => (
                                 <a key={ index } href={ certification.url } target="." className="bg-gray w-full xl:w-[360px] h-52 rounded-lg flex items-end overflow-hidden relative hover:scale-105 ease-in-out transition-all">
-                                    <img src={ "src/assets/certif/" + certification.image } className="w-full h-full object-cover object-top" />
+                                    <img src={ "/assets/certif/" + certification.image } className="w-full h-full object-cover object-top" />
                                     <div className="bg-black w-full flex items-center p-5 absolute">
                                         <p className="text-white text-base font-bold line-clamp-1">{ certification.title }</p>
                                     </div>

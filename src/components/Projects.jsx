@@ -29,7 +29,7 @@ function Projects() {
             <div className="w-full lg:w-auto grid md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-8">
                 {projects.map((project, index) => (
                     <a key={index} href={ project.url } target="." className="bg-gray md:w-full lg:w-[360px] h-52 md:h-[360px] rounded-lg flex items-end overflow-hidden relative border-blue border-2 group cursor-pointer">
-                        <img src={ "src/assets/projects/" + project.image } className="w-full h-full object-cover object-left" />
+                        <img src={ "/assets/projects/" + project.image } className="w-full h-full object-cover object-left" />
                         <div className="h-[100px] flex flex-col bg-blue w-full p-4 gap-2 absolute group-hover:h-1/2 transition-all duration-300 ease-in-out">
                             <h1 className="text-white text-md md:text-xl font-bold ml-2">{ project.title }</h1>
                             <div className="flex flex-wrap gap-2 overflow-hidden">
