@@ -1,0 +1,38 @@
+[
+    {
+        "title": "PersonaWay",
+        "image": "PersonaWay.png",
+        "url": "https://github.com/personaway",
+        "categories": ["ML", "Tensorflow", "Python", "Android", "Kotlin"]
+    },
+    {
+        "title": "BookHive",
+        "image": "BookHive.png",
+        "url": "https://github.com/DarrelBumika/BookHive",
+        "categories": ["Android", "Java", "API"]
+    },
+    {
+        "title": "PawSense",
+        "image": "PawSense.png",
+        "url": "https://github.com/DarrelBumika/PawSense",
+        "categories": ["ML", "Tensorflow", "Python", "Flask", "Tailwind"]
+    },
+    {
+        "title": "ContributeIN",
+        "image": "ContributeIN.png",
+        "url": "https://github.com/DarrelBumika/contributein",
+        "categories": ["React", "Tailwind"]
+    },
+    {
+        "title": "Vacation Matcher",
+        "image": "VacationMatcher.png",
+        "url": "https://github.com/DarrelBumika/Vacation-Matcher",
+        "categories": ["React", "Decision Support System"]
+    },
+    {
+        "title": "Princess Dragon Slayer",
+        "image": "PrincessDragonSlayer.png",
+        "url": "https://github.com/DarrelBumika/PrincessDragonSlayer",
+        "categories": ["Godot", "Game Development"]
+    }
+]
