@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { LogoIcon } from "@/components/icons";
 import { MENUS } from "@/constant";
 import Link from "next/link";
