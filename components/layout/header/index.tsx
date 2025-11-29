@@ -1,9 +1,9 @@
 'use client'
 
 import Image from "next/image";
-import logo from "../../public/logo.svg"
-import homeIcon from "../../public/home.svg"
-import darkModeIcon from "../../public/dark_mode.svg"
+import logo from "../../../public/logo.svg"
+import homeIcon from "../../../public/home.svg"
+import darkModeIcon from "../../../public/dark_mode.svg"
 import { NavBar, IconButton } from "@/components/ui";
 
 export default function Header() {
