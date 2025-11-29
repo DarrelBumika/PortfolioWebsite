@@ -7,14 +7,8 @@ export default function Footer() {
         <footer className="w-full flex flex-col gap-8 bg-foreground p-32">
             <div className="w-full flex justify-between">
                 <LogoIcon color="#FFFFFF" />
-                <p className="max-w-[300px] text-background font-sans font-semibold text-xs">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur vitae elit nec pellentesque.
-                    <br />
-                    <br />
-                    Sed in efficitur risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc elit ligula, pellentesque non scelerisque eu, feugiat eget urna.
-                    <br />
-                    <br />
-                    Nam tincidunt pharetra sem in scelerisque.
+                <p className="max-w-[300px] text-background font-sans font-semibold text-xs text-justify">
+                    I am Ashilpa Darrel Bumika, undergraduate BE (Information Technology) at Universitas Negeri Yogyakarta. A Fullstack Software Engineer and AI/ML enthusiast.
                 </p>
             </div>
             <hr className="h-0.5 bg-background" />
