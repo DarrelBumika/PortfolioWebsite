@@ -1,5 +1,19 @@
 import { EXPERIENCES } from "@/constant";
-import { Experience } from "@/components/ui";
+import { Experience, Timeline } from "@/components/ui";
+
+const experiences= EXPERIENCES.map(experience => (
+    {
+        content: (
+            <Experience
+                position={experience.position}
+                company={experience.company}
+                year={experience.year}
+                arrangement={experience.arrangement}
+                type={experience.type}
+            />
+        )
+    }
+))
 
 export default function Experiences() {
     return (
@@ -10,18 +24,10 @@ export default function Experiences() {
             <h2 className="font-display font-normal text-4xl text-foreground">
                 II. EXPERIENCES
             </h2>
-            <div className="flex flex-col gap-8">
-                {EXPERIENCES.map((experience) => (
-                    <Experience
-                        key={experience.position + experience.company}
-                        position={experience.position}
-                        company={experience.company}
-                        year={experience.year}
-                        arrangement={experience.arrangement}
-                        type={experience.type}
-                    />
-                ))}
-            </div>
+            <Timeline
+                data={experiences}
+                gap={8}
+            />
         </section>
     )
 }
