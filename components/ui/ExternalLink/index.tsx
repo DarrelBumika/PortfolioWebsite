@@ -1,12 +1,15 @@
 import { ArrowIcon } from '@/components/icons';
+import classNames from "classnames";
 
 export default function ExternalLink(
     {
         title,
-        url
+        url,
+        size
     }: {
         title: string;
-        url: string
+        url: string,
+        size?: "small" | "large";
     }
 ) {
     return (
@@ -14,7 +17,13 @@ export default function ExternalLink(
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 font-display font-normal text-4xl text-foreground"
+            className={classNames(
+                "flex items-center gap-2 font-display font-normal text-foreground",
+                {
+                    "text-4xl ": size === "small" || !size,
+                    "text-6xl": size === "large",
+                }
+            )}
         >
             {title}
             <ArrowIcon />

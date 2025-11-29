@@ -9,10 +9,21 @@ export default function Contact() {
             <h2 className="font-display font-normal text-4xl text-foreground">
                 IV. CONTACT
             </h2>
-            <div className="flex gap-16">
-                <ExternalLink title="GITHUB" url="https://www.github.com/" />
-                <ExternalLink title="GITHUB" url="https://www.github.com/" />
-                <ExternalLink title="GITHUB" url="https://www.github.com/" />
+            <div className="flex flex-col">
+                <h3 className="text-8xl font-display font-normal text-foreground">
+                    ASHILPA.DARREL@GMAIL.COM
+                </h3>
+                <div className="w-full flex justify-between">
+                    <ExternalLink
+                        title="GITHUB"
+                        url="https://www.github.com/darrelbumika/"/>
+                    <ExternalLink
+                        title="LINKEDIN"
+                        url="https://www.linkedin.com/in/ashilpadarrel/"/>
+                    <ExternalLink
+                        title="WEBSITE"
+                        url="https://ashilpadarrelbumika.vercel.app/"/>
+                </div>
             </div>
         </section>
     )
